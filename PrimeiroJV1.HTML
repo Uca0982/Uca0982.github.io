@@ -6,10 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Primeiro código</title>
 
+    <script>
+          window.onload = roda;
+
+        function roda() {
+            var Escola = document.getElementById("IFSP");
+            Escola.innerHTML = "Instituto Federal";
+
+            var Curso = document.getElementById("Informatica");
+            Curso.innerHTML = "Info";
+
+            var Nome = document.getElementById("Nome");
+            Nome.innerHTML = "Andre Lucas Ribeiro Angeli";
+        }
+
+    </script>
 </head>
 <body>
     <h1 id="IFSP">Escola</h1> 
     <h2 id="Informatica">Curso</h2> 
-    <h3 id="Andre Lucas Ribeiro Angeli">Nome</h3> 
+    <h3 id="Nome">Nome</h3> 
 </body>
 </html>
